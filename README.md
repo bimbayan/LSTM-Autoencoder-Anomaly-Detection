@@ -29,12 +29,11 @@ An **LSTM Autoencoder** learns to reconstruct input sequences. If a sequence can
 
 ## Notebooks Structure 
 notebooks/
-│
-├── 1_load_and_visualize.ipynb → Load data, visualize temperature patterns
-├── 2_preprocessing.ipynb → Normalize and create sliding sequences
-├── 3_model_training.ipynb → Build and train LSTM Autoencoder
-├── 4_detect_anomalies.ipynb → Compute reconstruction errors, mark anomalies
-└── 5_reporting.ipynb → Generate visualizations and export CSV
+1. 1_load_and_visualize.ipynb → Load data, visualize temperature patterns
+2. 2_preprocessing.ipynb → Normalize and create sliding sequences
+3. 3_model_training.ipynb → Build and train LSTM Autoencoder
+4. 4_detect_anomalies.ipynb → Compute reconstruction errors, mark anomalies
+5. 5_reporting.ipynb → Generate visualizations and export CSV
 
 
 ## 🛠️ Tech Stack
@@ -58,6 +57,7 @@ notebooks/
 | Model Size | 62,529 parameters |
 | Sequence Length | 30 timesteps |
 | Training Time | ~7s per epoch (50 epochs) |
+
 
 
 
