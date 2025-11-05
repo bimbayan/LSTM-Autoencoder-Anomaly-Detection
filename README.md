@@ -28,7 +28,7 @@ An **LSTM Autoencoder** learns to reconstruct input sequences. If a sequence can
 - visuals/ → Generated plots
 
 ## Notebooks Structure 
--notebooks/
+notebooks/
 │
 ├── 1_load_and_visualize.ipynb → Load data, visualize temperature patterns
 ├── 2_preprocessing.ipynb → Normalize and create sliding sequences
@@ -58,6 +58,7 @@ An **LSTM Autoencoder** learns to reconstruct input sequences. If a sequence can
 | Model Size | 62,529 parameters |
 | Sequence Length | 30 timesteps |
 | Training Time | ~7s per epoch (50 epochs) |
+
 
 
 
